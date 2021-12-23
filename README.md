@@ -37,11 +37,11 @@ git clone https://github.com/PierreYvesMal/IoTLibelium
 cd IoTLibelium
 
 //sub  
-cd \~/IoTLibelium
+cd \~/IoTLibelium  
 sudo apt-get install virtualenv  
 virtualenv env  
 source env/bin/activate  
-export GOOGLE_APPLICATION_CREDENTIALS=\~/MA-IoT/iotmalengre-153b229d624c.json  
+export GOOGLE_APPLICATION_CREDENTIALS=\~/IoTLibelium/iotmalengre-153b229d624c.json  
 pip3 install -r requirements.txt  
 python3 iot.py
 
